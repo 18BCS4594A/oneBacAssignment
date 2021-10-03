@@ -4,7 +4,7 @@ import './App.css';
 function App() {
 
   const [transection,setTransection] = useState(null);
-  const [details,setDetails] = useState({
+  const [details] = useState({
     userId:1,
     recipientId:2
   })
